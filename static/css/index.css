@@ -564,8 +564,14 @@ a:hover {
     .card-dem1 .text-whater{
         margin: 0 0 0 0;
     }
-     .drops {
+    .drops {
         display: none;
+    }
+   .third-grid .third-text .box {
+        font-size: 15px;
+    }
+    .third-grid .third-text{
+        font-size: 16px;
     }
     
 }
@@ -593,12 +599,6 @@ a:hover {
             transition: none;
             transform: translateY(0%);
     }
-    .third-grid .third-text .box {
-        font-size: 15px;
-    }
-    .third-grid .third-text{
-        font-size: 16px;
-    }
 }
 
 @media (max-width: 321px) {
@@ -620,11 +620,5 @@ a:hover {
             opacity: 1;
             transition: none;
             transform: translateY(0%);
-    }
-    .third-grid .third-text .box {
-        font-size: 15px;
-    }
-    .third-grid .third-text{
-        font-size: 16px;
     }
 }
