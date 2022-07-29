@@ -610,4 +610,21 @@ a:hover {
         max-width: 200px;
         animation: none;
         }
+    .element-animation {
+        font-size: 3rem;
+        opacity: 1;
+        transform: none;
+    }
+          
+    .element-animation.element-show {
+            opacity: 1;
+            transition: none;
+            transform: translateY(0%);
+    }
+    .third-grid .third-text .box {
+        font-size: 15px;
+    }
+    .third-grid .third-text{
+        font-size: 16px;
+    }
 }
