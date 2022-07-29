@@ -569,3 +569,9 @@ a:hover {
     }
     
 }
+.third-grid .third-text .box {
+        font-size: 15px;
+    }
+    .third-grid .third-text{
+        font-size: 16px;
+    }
