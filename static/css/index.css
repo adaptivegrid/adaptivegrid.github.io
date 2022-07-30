@@ -587,7 +587,7 @@ a:hover {
     }
     .cards-grid>div {
         justify-items: center;
-        max-width: 250px;
+        max-width: 300px;
         animation: none;
     }
     .content {
@@ -612,7 +612,7 @@ a:hover {
     }
     .cards-grid>div {
         justify-items: center;
-        max-width: 200px;
+        max-width: 250px;
         animation: none;
         }
     .element-animation {
