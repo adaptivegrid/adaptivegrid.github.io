@@ -5,6 +5,10 @@
     font-family: 'PT Sans', sans-serif;
 }
 
+html {
+     overflow-x: hidden;
+}
+
 body {
     overflow: hidden;
 }
