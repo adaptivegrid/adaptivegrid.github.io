@@ -19,7 +19,6 @@ body {
     margin: 25px;
     display: flex;
     justify-content: center;
-    overflow-x: hidden;
 }
 
 /* generic container _________________________________________*/
@@ -583,6 +582,9 @@ a:hover {
 }
 
 @media (max-width: 401px) {
+    body {
+	overflow-x: hidden;
+	}
     .cards-grid {
         max-width: 300px;
     }
