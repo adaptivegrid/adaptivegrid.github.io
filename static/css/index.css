@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+     overflow-x: hidden;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #000;
@@ -15,6 +19,7 @@ body {
     margin: 25px;
     display: flex;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 /* generic container _________________________________________*/
