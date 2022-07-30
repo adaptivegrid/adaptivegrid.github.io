@@ -19,7 +19,6 @@ body {
     margin: 25px;
     display: flex;
     justify-content: center;
-    overflow-x: hidden;
 }
 
 /* generic container _________________________________________*/
