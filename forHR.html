@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=5.0, user-scalable=no">
+    <meta name="description" content="Для seo">
+
+    <link rel="stylesheet" type="text/css" href="static/css/forHR.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <title>For HR</title>
+</head>
+<body>
+    <section>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="box">
+            <div class="square" style="--i:0;"></div>
+            <div class="square" style="--i:1;"></div>
+            <div class="square" style="--i:2;"></div>
+            <div class="square" style="--i:3;"></div>
+            <div class="square" style="--i:4;"></div>
+            <div class="container">
+                <div class="form-all">
+                    <h2>Адаптативная вёрстка на Grid, о <a href="index.html" class="page">странице с коттеджами:</a></h2>
+                    <div class="text">
+                        <p>Контрольные точки: @media (max-width: 1200px, 993px, 769px, 577px, 401px, 321px).</p>
+                        <br>
+                        <p>Подключены мета-теги:</p>
+                        <p>-шрифт на маленьком экране не становится меньше,</p>
+                            <p>-запрет на увеличения страницы на мобильном устройстве,</p>
+                            <p>-подключен тег для seo поисковиков.</p>
+                        <br>
+                        <p>Так как не подключена база данных,
+                            можно было бы создать массив в js файле, перебирать и добавлять значения 
+                            ключей в разметку HTML. Однако, такой подход мог бы увеличить время загрузки
+                            страницы, поэтому весь HTML я прописала вручную. Если бы был
+                            запрос к БД, то можно было без проблем всё вывести в цикле.
+                        </p>
+                        <br>
+                        <p>В HTML в grid прописаны первые 8 блоков (4sale и 4product), при переборе
+                            через цикл или при добавлении вручную, остальные продукты будут добавляться
+                            автоматически как product благодаря свойству grid-auto-rows.
+                        </p>
+                        <br>
+                        <p>Добавлен слайдер для просмотра фото, анимации блоков и текста при
+                            загрузке, при наведении на блок: он поднимается, анимация появления блока при скроле, 
+                            а так же анимации движущихся объектов в форме заявки и на этой стрнице.
+                        </p>
+                        <br>
+                        <p>Максимальное увеличение в 5 раз, отключена горизонтальная прокрутка.</p>
+                        <br>
+                        <h4><a href="index.html" class="back">&#10094&#10094 назад</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ball bubble"></div>
+        <div class="ball bubble"></div>
+    </section>
+</body>
+</html>
