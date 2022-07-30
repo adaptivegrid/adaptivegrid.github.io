@@ -278,5 +278,6 @@ h4 a {
 @media (max-width: 769px){
     body {
         overflow-y: visible;
+        overflow-x: hidden;
     }
 }
