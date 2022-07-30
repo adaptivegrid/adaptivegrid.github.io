@@ -11,6 +11,7 @@ html {
 
 body {
     overflow: hidden;
+    overflow-x: hidden;
 }
 section {
     display: flex;
