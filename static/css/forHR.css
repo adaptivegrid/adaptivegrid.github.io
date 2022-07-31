@@ -146,7 +146,7 @@ section .color:nth-child(3) {
     margin-left: 0.2em;
 }
 
-a.page {
+page {
     text-decoration-line: none;
     position: relative;
     color: #fff;
@@ -157,7 +157,9 @@ a.page {
     margin-left: 0.2em;
 }
 
-
+.git {
+    color: #666;
+}
 
 .form-all .text {
     width: 100%;
