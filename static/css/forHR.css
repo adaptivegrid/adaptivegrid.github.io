@@ -146,7 +146,7 @@ section .color:nth-child(3) {
     margin-left: 0.2em;
 }
 
-page {
+.page {
     text-decoration-line: none;
     position: relative;
     color: #fff;
